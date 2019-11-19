@@ -5,20 +5,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Components | Curt Thompson MD</title>
+        <link href="https://fonts.googleapis.com/
+        css?family=Montserrat:400,600,700|Raleway:
+        400,600,700&display=swap" rel="stylesheet"
+        />
         <link rel="stylesheet" href="../css/main.css" />
     </head>
     <body>
-        <h1>Web Components Go Here</h1>
+        <h1>Web Components</h1>
 
         <h2>Typography Defaults</h2>
 
         <article class="component">
             <h3 class="component__name">body</h3>
+            <div class="component__img">
                 <img 
                     srcset="img/body-copy.png 2x"
                     src="img/body-copy.png" 
                     alt="sample of body copy" 
                 />
+            </div>
             <div class="component__code">
                 <p>Curt speaks to the innermost desires of our 
                     hearts and souls, bringing together an 
@@ -32,5 +38,41 @@
                 </p>
             </div>
         </article>
+
+        <article class="component">
+                <h3 class="component__name">headings (h1, h2, ...)</h3>
+                <div class="component__img">
+                    <img 
+                        srcset="img/h1.png 2x"
+                        src="img/h1.png" 
+                        alt="h1" 
+                    /> 
+                    <img 
+                        srcset="img/h2.png 2x"
+                        src="img/h2.png" 
+                        alt="h2" 
+                    />
+                    <img 
+                        srcset="img/h1-books.png 2x"
+                        src="img/h1-books.png" 
+                        alt="h2 books" 
+                    />
+                    <img 
+                        srcset="img/h1-resources.png 2x"
+                        src="img/h1-resources.png" 
+                        alt="h1 resources" 
+                    />
+                </div>
+                <div class="component__code">
+                    <h1 class="first-heading">Truer Stories.</h1>
+                    <h1 class="second-heading">Deeper Connections.</h1>
+                    <h1 class="third-heading">Abundant Lives.</h1>
+
+                    <h2 class="h2-hp">Speaking Dates</h2>
+
+                    <h1 class="h1-hp">Books</h1>
+                    <h1 class="h1-hp">Resources</h1>
+                </div>
+            </article>
     </body>
 </html>

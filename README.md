@@ -1,2 +1,2 @@
-# curt-thompson-md-casestudy
+# Curt Thompson MD Case Study
 Case Study of a Design System for Web Development

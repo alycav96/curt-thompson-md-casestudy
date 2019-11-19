@@ -1,0 +1,21 @@
+:root {
+    --font-raleway: Raleway, sans-serif;
+    --font-montserrat: Montserrat,  sans-serif;
+    --black: #000;
+    --teal: #03c2d3;
+    --gray: #808080;
+    --white: #ffffff;
+}
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: var(--font-raleway);
+    color: var(--black);
+    line-height: 26px;
+
+}

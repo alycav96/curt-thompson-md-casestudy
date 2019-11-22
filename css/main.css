@@ -118,37 +118,108 @@ Cards
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-    padding: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px; 
     text-align: center;
     background-color: #ffff;
-    align-content: center;
-    align-items: center;
     border-radius: 10px;
-    flex-direction: space-around;
-    
 }
 
-@media screen and (max-width: 600px) {
-.column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-}
-
-/**
-Card Content (headers)
-**/
-.card__info {
-    font-family: "Raleway",sans-serif;
+.card__body {
+    color: var(--teal);
+    font-family: var(--font-raleway);
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 1px;
     line-height: 20px;
-    margin: 10px auto 15px;
-    color: #03c2d3;
 }
 
-.card-title {
-    font
+.card__h1 {
+    color: solid black;
+    font-family: var(--font-raleway);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 27px;
+}
+
+/**
+Links
+**/
+.link {
+    cursor: pointer;
+    font-family: var(--font-montserrat);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.78px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: var(--teal);
+}
+
+.link2 {
+    cursor: pointer;
+    font-family: var(--font-montserrat);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.78px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--teal);
+    padding: 5px;
+}
+
+/**
+Form
+**/
+.container {
+}
+
+/**
+Dates
+**/
+
+.dates-wrapper {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+max-width: 500px;
+margin: 35px auto 20px;
+text-align: center;
+position: relative;
+z-index: 5;
+}
+
+.event-item {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+max-width: 500px;
+margin: 35px auto 20px;
+text-align: center;
+position: relative;
+z-index: 5;
+}
+
+.item-wrapper {
+display: flex;
+flex-direction: flex-start;
+flex-wrap: wrap;
+max-width: 500px;
+margin: 35px auto 20px;
+text-align: center;
+position: relative;
+z-index: 5;
+}
+
+.date {
+display: flex;
+flex-direction: column;
+
+}
+
+.details {
+display: flex;
+flex-wrap: wrap;
+
 }

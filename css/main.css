@@ -21,6 +21,7 @@ body {
     font-family: var(--font-raleway);
     color: var(--black);
     line-height: 26px;
+    margin: 30px;
 }
 
 img {
@@ -172,8 +173,6 @@ Links
 /**
 Form
 **/
-.container {
-}
 
 /**
 Dates
@@ -182,44 +181,55 @@ Dates
 .dates-wrapper {
 display: flex;
 flex-direction: column;
-flex-wrap: wrap;
 max-width: 500px;
 margin: 35px auto 20px;
-text-align: center;
-position: relative;
-z-index: 5;
 }
 
 .event-item {
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-max-width: 500px;
-margin: 35px auto 20px;
-text-align: center;
-position: relative;
-z-index: 5;
+border-radius: 10px;
+width: 100%;
+height: fit-content;
+margin-bottom: 25px;
+box-shadow: 0 6px 15px 0;
+
 }
 
 .item-wrapper {
 display: flex;
-flex-direction: flex-start;
-flex-wrap: wrap;
-max-width: 500px;
-margin: 35px auto 20px;
-text-align: center;
-position: relative;
-z-index: 5;
+align-items: center;
+width: 100%;
+background-color: var(--white);
+border-radius: 10px;
 }
 
 .date {
-display: flex;
+border-radius: 10px;
+width: 22%;
+padding: 10px 0px;
 flex-direction: column;
-
 }
 
 .details {
-display: flex;
-flex-wrap: wrap;
+text-align: left;
+padding: 10px 8px;
+background-color: #f6f7fa;
+width: 78%;
+border-radius: 0px 10px 10px 0px;
+}
 
+.month {
+    font-family: var(--font-montserrat);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--teal);
+}
+
+.day {
+    font-family: var(--font-raleway);
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #394041;
 }

@@ -28,13 +28,12 @@ Header Video Placement
 /**
 Hero
 **/
+
 .hero-container {
     max-width: 1250px;
     margin: 0px auto;
     display: flex;
-    
     justify-content: space-between;
-   
     align-items: center;
     padding: 0px 25px;
 }
@@ -86,14 +85,13 @@ H1, First, Second, Third Headings
     font-weight: 400;
 }
 
-.link-about {
+.link-about, .link-about:visited {
     font-family: var(--font-montserrat);
     font-weight: 600;
     color: var(--teal);
     text-transform: uppercase;
-    
-
 }
+
 /**
 Nav-Bar
 **/
@@ -101,7 +99,7 @@ Nav-Bar
     box-sizing: border-box;
     position: relative;
     height: 100%;
-    margin-left: 50%;
+    margin-left: 53%;
 }
 
 .nav-bar__list {
@@ -112,6 +110,7 @@ Nav-Bar
     margin: 0;
     height: 100%;
     list-style: none;
+    text-decoration: none; 
 }
 
 .nav-bar__item {
@@ -122,7 +121,7 @@ Nav-Bar
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0;
-
+    text-decoration: none;
 }
 
 .nav-bar__item--contact{
@@ -137,4 +136,59 @@ Nav-Bar
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0;
+}
+
+/**
+Nav Links
+**/
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+    color: var(--gray-dark);
+}
+
+/**
+About Content Wrap
+**/
+.about-content-wrap {
+    box-sizing: border-box;
+    padding: 100px 0px 0px;
+    max-width: 1440px;
+    margin: 0px auto;
+    color: var(--teal);
+}
+
+/**
+Reflections
+**/
+.reflections-container {
+   box-sizing: border-box;
+   margin-top: 30%;
+   margin-left: 25%;
+   margin-right: 25%;
+   margin-bottom: 10%;
+
+    
+}
+.reflections-wrap-title {
+    font-family: var(--font-montserrat);
+    color: var(--teal);
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 72px;
+    text-align: center;
+}
+
+.reflections-p {
+    font-family: var(--font-montserrat);
+    color: var(--gray-dark);
+    font-weight: 400;
+    text-align: center;
+}
+
+.reflections-form {
+    text-align: center;
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--gray-dark);
 }

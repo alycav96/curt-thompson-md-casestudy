@@ -262,3 +262,85 @@ Dates
         line-height: 40px;
         color: #394041;
 }
+
+/**
+Books
+**/
+.books {   
+    max-width: 35%;
+    font-family: var(--font-montserrat);
+    margin-left: 10%;
+    margin-top: 0;
+}
+
+.h1-books {
+    color: var(--teal);
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.books-img {
+    margin-left: 50%;
+    margin-right: 30%;
+    margin-top: 0;
+}
+
+/**
+Cards
+**/
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    margin: 0 -5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row:after {
+    display: flex;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px; 
+    text-align: center;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+.card__body {
+    color: var(--teal);
+    font-family: var(--font-raleway);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.card__h1 {
+    color: solid black;
+    font-family: var(--font-raleway);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 27px;
+}
+
+.card-container {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+/**
+resources
+**/
+
+.h1-resources {
+    font-family: var(--font-montserrat);
+    color: var(--teal);
+}
